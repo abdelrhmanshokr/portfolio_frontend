@@ -1,12 +1,13 @@
 import React from 'react';
+import './mainComponent.css';
 
-const ExampleComponent = ({ title, content }) => {
+const MainComponent = ({ title, content }) => {
     return (
-        <div className="example-component">
+        <div className="main-component">
             <h1 className="text-2xl font-bold">{title}</h1>
             <p className="text-lg">{content}</p>
         </div>
     );
 };
 
-export default ExampleComponent;
+export default MainComponent;

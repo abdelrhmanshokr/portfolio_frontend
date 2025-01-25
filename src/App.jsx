@@ -1,11 +1,10 @@
 import React from 'react';
-import ExampleComponent from './components/ExampleComponent';
+import MainComponent from './components/mainComponent/MainComponent';
 
 const App = () => {
     return (
         <div className="App">
-            <h1 className="text-2xl font-bold">Welcome to My React App</h1>
-            <ExampleComponent />
+            <MainComponent title="Home page" content="Portfolio content" />
         </div>
     );
 };
